@@ -1,419 +1,510 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>John Doe — Frontend Developer</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selvabharath</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <!-- ─── NAV ─────────────────────────── -->
-  <nav id="navbar">
-    <a href="#" class="nav-logo">John<span>.</span>dev</a>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <a href="#contact" class="nav-cta">Hire Me</a>
-  </nav>
+    <!-- GRID BACKGROUND -->
+    <div class="grid-bg"></div>
 
-  <!-- ─── HERO ────────────────────────── -->
-  <section class="hero" id="home">
-    <div class="hero-grid"></div>
-    <div class="hero-glow"></div>
-    <div class="hero-glow2"></div>
+    <!-- ══════════════════════════════════════
+       NAV
+  ══════════════════════════════════════ -->
+    <nav id="navbar">
+        <a href="#home" class="nav-logo">Selva<span>_Bharath</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="nav-cta">[ HIRE ME ]</a>
+    </nav>
 
-    <div class="hero-content">
-      <div class="hero-badge">
-        <span class="badge-dot"></span>
-        Open to Opportunities
-      </div>
-      <p class="hero-greeting">Hi there, I'm</p>
-      <h1 class="hero-name"><span class="highlight">John Doe</span></h1>
-      <p class="hero-role">
-        <span id="typeText"></span>
-        <span class="typing-cursor"></span>
-      </p>
-      <p class="hero-desc">
-        A passionate fresher frontend developer who loves turning ideas into
-        beautiful, interactive web experiences. I build clean, responsive, and
-        user-friendly interfaces using modern web technologies.
-      </p>
-      <div class="hero-btns">
-        <a href="#projects" class="btn-filled">View My Work ↓</a>
-        <a href="#contact"  class="btn-outline">Get In Touch</a>
-      </div>
-    </div>
+    <!-- ══════════════════════════════════════
+       HERO
+  ══════════════════════════════════════ -->
+    <section class="hero" id="home">
+        <div class="hero-glow-pink"></div>
+        <div class="hero-glow-cyan"></div>
 
-    <!-- Floating code card -->
-    <div class="hero-right">
-      <div class="code-card">
-        <div class="code-header">
-          <div class="dot dot-r"></div>
-          <div class="dot dot-y"></div>
-          <div class="dot dot-g"></div>
-          <span class="code-file">developer.js</span>
-        </div>
-        <div class="code-body">
-          <span class="c-kw">const</span> <span class="c-fn">developer</span> = {<br>
-          <span class="c-indent"><span class="c-prop">name</span>: <span class="c-str">"John Doe"</span>,</span>
-          <span class="c-indent"><span class="c-prop">role</span>: <span class="c-str">"Frontend Dev"</span>,</span>
-          <span class="c-indent"><span class="c-prop">stack</span>: [</span>
-          <span class="c-indent2"><span class="c-str">"HTML"</span>, <span class="c-str">"CSS"</span>,</span>
-          <span class="c-indent2"><span class="c-str">"JavaScript"</span>, <span class="c-str">"React"</span></span>
-          <span class="c-indent">],</span>
-          <span class="c-indent"><span class="c-prop">status</span>: <span class="c-str">"Available 🚀"</span>,</span>
-          <span class="c-indent"><span class="c-prop">coffee</span>: <span class="c-num">Infinity</span></span>
-          };<br><br>
-          <span class="c-comment">// Ready to build amazing</span><br>
-          <span class="c-comment">// things with you! 💻</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="scroll-hint">
-      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
-      <span>Scroll</span>
-    </div>
-  </section>
-
-  <!-- ─── ABOUT ───────────────────────── -->
-  <section class="about" id="about">
-    <div class="about-inner">
-
-      <div class="reveal">
-        <div class="about-avatar-wrap">
-          <div class="avatar-box">
-            <div class="avatar-ring"></div>
-            <span class="avatar-initials">JD</span>
-          </div>
-          <div class="about-info-cards" style="max-width:280px;">
-            <div class="info-card">
-              <div class="info-card-num">10+</div>
-              <div class="info-card-label">Projects Built</div>
+        <div class="hero-content">
+            <div class="hero-status">
+                <span class="status-dot"></span>
+                SYSTEM ONLINE
             </div>
-            <div class="info-card">
-              <div class="info-card-num">5+</div>
-              <div class="info-card-label">Certifications</div>
+
+            <p class="hero-greeting">INITIALIZING...</p>
+
+            <h1 class="hero-name">
+                <span class="neon-pink">SELVA</span>
+                <span class="neon-cyan">BHARATH</span>
+            </h1>
+
+            <div class="hero-divider"></div>
+
+            <p class="hero-role">
+                &gt; <span class="typed-text" id="typed-text"></span>
+                <span class="cursor-blink"></span>
+            </p>
+
+            <p class="hero-desc">
+                A passionate frontend Designer & Software tester who loves turning ideas into
+                beautiful, interactive web experiences. I build clean, responsive, and
+                user-friendly interfaces using modern web technologies.
+            </p>
+
+            <div class="hero-btns">
+                <a href="#projects" class="btn-pink">[ VIEW PROJECTS ]</a>
+                <a href="#contact" class="btn-cyan-outline">[ CONTACT ME ]</a>
             </div>
-            <div class="info-card">
-              <div class="info-card-num">2024</div>
-              <div class="info-card-label">CS Graduate</div>
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+    <!-- ══════════════════════════════════════
+       ABOUT
+  ══════════════════════════════════════ -->
+    <section class="about" id="about">
+        <div class="about-inner">
+
+            <!-- Left: Avatar + Stats -->
+            <div class="reveal">
+                <div class="about-avatar-wrap">
+                    <div class="avatar-frame">
+                        <div class="avatar-corner corner-tl"></div>
+                        <div class="avatar-corner corner-br"></div>
+                        <span class="avatar-initials">JD</span>
+                    </div>
+                    <div class="stat-grid">
+                        <div class="stat-box">
+                            <div class="stat-val">10+</div>
+                            <div class="stat-lbl">Projects</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-val">5+</div>
+                            <div class="stat-lbl">Certs</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-val">2020</div>
+                            <div class="stat-lbl">Graduate</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-val">∞</div>
+                            <div class="stat-lbl">Coffee</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="info-card">
-              <div class="info-card-num">∞</div>
-              <div class="info-card-label">Cups of Coffee</div>
+
+            <!-- Right: Bio -->
+            <div class="reveal reveal-d1">
+                <p class="section-eyebrow">About Me</p>
+                <h2 class="section-title">
+                    <span class="neon-pink">SYSTEM</span>
+                    <span class="neon-cyan">PROFILE</span>
+                </h2>
+                <p class="about-text">
+                    I'm a Software testing with a deep passion for frontend
+                    design and QA testing. I enjoy creating pixel-perfect design, performant interfaces that
+                    provide exceptional user experiences.
+                </p>
+                <p class="about-text">
+                    During my working I shipped multiple personal and team projects —
+                    sharpening my skills in HTML, CSS, JavaScript, and Frontend design. I
+                    constantly push to stay ahead of the latest frontend design & QA testing trends and
+                    best practices.
+                </p>
+                <p class="about-text">
+                    When I'm not coding you'll find me contributing to open source,
+                    exploring new design systems, or levelling up on algorithms.
+                </p>
+                <div class="about-tags">
+                    <span class="cyber-tag">Problem Solver</span>
+                    <span class="cyber-tag">Team Player</span>
+                    <span class="cyber-tag">Quick Learner</span>
+                    <span class="cyber-tag">QA Tester</span>
+                    <span class="cyber-tag">Open Source</span>
+                    <span class="cyber-tag">UI/UX Curious</span>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="reveal reveal-d1">
-        <p class="section-label">About Me</p>
-        <h2 class="section-title">Passionate about<br>crafting the web</h2>
-        <p class="about-text">
-          I'm a fresh Computer Science graduate with a deep passion for frontend
-          development. I enjoy creating pixel-perfect, performant interfaces that
-          provide exceptional user experiences.
-        </p>
-        <p class="about-text">
-          During my studies I worked on multiple personal and team projects,
-          sharpening my skills in HTML, CSS, JavaScript, and React. I'm constantly
-          learning and staying up to date with the latest frontend trends.
-        </p>
-        <p class="about-text">
-          When I'm not coding, you can find me contributing to open source,
-          building side projects, or exploring new design inspiration.
-        </p>
-        <div class="about-tags">
-          <span class="tag">Problem Solver</span>
-          <span class="tag">Team Player</span>
-          <span class="tag">Quick Learner</span>
-          <span class="tag">Detail-Oriented</span>
-          <span class="tag">Open Source</span>
-          <span class="tag">UI/UX Curious</span>
         </div>
-      </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- ══════════════════════════════════════
+       SKILLS
+  ══════════════════════════════════════ -->
+    <section id="skills" style="padding: 6rem 5%;">
+        <div class="skills-inner">
+            <div class="skills-header reveal">
+                <p class="section-eyebrow">Tech Stack</p>
+                <h2 class="section-title">
+                    <span class="neon-cyan">SKILLS</span> &amp;
+                    <span class="neon-pink">TOOLS</span>
+                </h2>
+                <p class="section-sub">
+                    Current tech stack and proficiency levels — always learning, always upgrading.
+                </p>
+            </div>
 
-  <!-- ─── SKILLS ──────────────────────── -->
-  <section id="skills" style="padding:6rem 5%;">
-    <div class="skills-inner">
-      <div class="skills-header reveal">
-        <p class="section-label">What I Know</p>
-        <h2 class="section-title">Skills &amp; Technologies</h2>
-        <p class="section-sub">
-          Here's my current tech stack and proficiency levels — always growing
-          and adding new tools.
-        </p>
-      </div>
+            <div class="skills-grid">
 
-      <div class="skills-grid">
-        <div class="skill-card reveal">
-          <div class="skill-icon">🌐</div>
-          <div class="skill-name">HTML5</div>
-          <div class="skill-desc">Semantic markup, accessibility, SEO-friendly structure and modern HTML5 APIs.</div>
-          <div class="skill-bar-wrap"><div class="skill-bar-fill" data-width="92"></div></div>
-          <div class="skill-pct">92%</div>
-        </div>
-        <div class="skill-card reveal reveal-d1">
-          <div class="skill-icon">🎨</div>
-          <div class="skill-name">CSS3 &amp; Sass</div>
-          <div class="skill-desc">Responsive design, Flexbox, Grid, animations, CSS variables and preprocessors.</div>
-          <div class="skill-bar-wrap"><div class="skill-bar-fill" data-width="88"></div></div>
-          <div class="skill-pct">88%</div>
-        </div>
-        <div class="skill-card reveal reveal-d2">
-          <div class="skill-icon">⚡</div>
-          <div class="skill-name">JavaScript (ES6+)</div>
-          <div class="skill-desc">DOM manipulation, async/await, Fetch API, ES6+ features and modern JS patterns.</div>
-          <div class="skill-bar-wrap"><div class="skill-bar-fill" data-width="80"></div></div>
-          <div class="skill-pct">80%</div>
-        </div>
-        <div class="skill-card reveal reveal-d3">
-          <div class="skill-icon">⚛️</div>
-          <div class="skill-name">React.js</div>
-          <div class="skill-desc">Hooks, components, state management, React Router and building SPAs.</div>
-          <div class="skill-bar-wrap"><div class="skill-bar-fill" data-width="72"></div></div>
-          <div class="skill-pct">72%</div>
-        </div>
-        <div class="skill-card reveal">
-          <div class="skill-icon">🔧</div>
-          <div class="skill-name">Git &amp; GitHub</div>
-          <div class="skill-desc">Version control, branching, pull requests, collaboration workflows.</div>
-          <div class="skill-bar-wrap"><div class="skill-bar-fill" data-width="78"></div></div>
-          <div class="skill-pct">78%</div>
-        </div>
-        <div class="skill-card reveal reveal-d1">
-          <div class="skill-icon">📱</div>
-          <div class="skill-name">Responsive Design</div>
-          <div class="skill-desc">Mobile-first approach, media queries, cross-browser compatibility.</div>
-          <div class="skill-bar-wrap"><div class="skill-bar-fill" data-width="85"></div></div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon-wrap">🌐</div>
+                    <div class="skill-name">HTML5</div>
+                    <div class="skill-desc">Semantic markup, accessibility standards, SEO-friendly structure and modern
+                        HTML5 APIs.</div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="92"></div>
+                    </div>
+                    <div class="skill-pct">92%</div>
+                </div>
+
+                <div class="skill-card reveal reveal-d1">
+                    <div class="skill-icon-wrap">🎨</div>
+                    <div class="skill-name">CSS3 &amp; Sass</div>
+                    <div class="skill-desc">Flexbox, Grid, responsive design, animations, CSS variables and
+                        preprocessors.</div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="88"></div>
+                    </div>
+                    <div class="skill-pct">88%</div>
+                </div>
+
+                <div class="skill-card reveal reveal-d2">
+                    <div class="skill-icon-wrap">⚡</div>
+                    <div class="skill-name">JavaScript ES6+</div>
+                    <div class="skill-desc">DOM manipulation, async/await, Fetch API, modern JS patterns and functional
+                        programming.</div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="80"></div>
+                    </div>
+                    <div class="skill-pct">80%</div>
+                </div>
+
+                <div class="skill-card reveal reveal-d3">
+                    <div class="skill-icon-wrap">⚛️</div>
+                    <div class="skill-name">Frontend design</div>
+                    <div class="skill-desc">UI, UX, state management, Frontend design Router and building full SPAs.
+                    </div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="72"></div>
+                    </div>
+                    <div class="skill-pct">72%</div>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon-wrap">🔧</div>
+                    <div class="skill-name">Git &amp; GitHub</div>
+                    <div class="skill-desc">Version control, branching strategies, pull requests and collaboration
+                        workflows.</div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="78"></div>
+                    </div>
+                    <div class="skill-pct">78%</div>
+                </div>
+
+                <div class="skill-card reveal reveal-d1">
+                    <div class="skill-icon-wrap">📱</div>
+                    <div class="skill-name">Responsive Design</div>
+                    <div class="skill-desc">Mobile-first approach, media queries, fluid typography and cross-browser
+                        compatibility.</div>
+                    <div class="skill-bar-track">
+                        <div class="skill-bar-fill" data-width="85"></div>
+                    </div>
+                    <div class="skill-pct">85%</div>
+                </div>
+
+                <!-- <div class="skill-card reveal reveal-d1">
+          <div class="skill-icon-wrap">📱</div>
+          <div class="skill-name">QA Testing</div>
+          <div class="skill-desc">Quality analist .</div>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
           <div class="skill-pct">85%</div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </div> -->
 
-  <!-- ─── PROJECTS ─────────────────────── -->
-  <section class="projects" id="projects">
-    <div class="projects-inner">
-      <div class="reveal">
-        <p class="section-label">My Work</p>
-        <h2 class="section-title">Featured Projects</h2>
-        <p class="section-sub">A selection of projects I've built to practice and showcase my frontend skills.</p>
-      </div>
-
-      <div class="projects-grid">
-        <div class="project-card reveal">
-          <div class="project-preview preview-1">
-            <div class="preview-pattern"></div>
-            <div class="preview-icon">🛒</div>
-          </div>
-          <div class="project-body">
-            <div class="project-tags">
-              <span class="project-tag">React</span>
-              <span class="project-tag">CSS</span>
-              <span class="project-tag">Context API</span>
             </div>
-            <div class="project-name">ShopEasy — E-Commerce UI</div>
-            <div class="project-desc">A fully responsive e-commerce frontend with product listing, cart management, and checkout flow built with React and Context API.</div>
-            <div class="project-links">
-              <a href="#" class="proj-link">🔗 Live Demo</a>
-              <a href="#" class="proj-link ghost">⌥ GitHub</a>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+       PROJECTS
+  ══════════════════════════════════════ -->
+    <section class="projects" id="projects">
+        <div class="projects-inner">
+
+            <div class="reveal">
+                <p class="section-eyebrow">My Work</p>
+                <h2 class="section-title">
+                    FEATURED
+                    <span class="neon-pink">PROJECTS</span>
+                </h2>
+                <p class="section-sub">
+                    A selection of builds showcasing my frontend design skills — from UI to full app logic & QA Testing.
+                </p>
             </div>
-          </div>
-        </div>
 
-        <div class="project-card reveal reveal-d1">
-          <div class="project-preview preview-2">
-            <div class="preview-pattern"></div>
-            <div class="preview-icon">☀️</div>
-          </div>
-          <div class="project-body">
-            <div class="project-tags">
-              <span class="project-tag">JavaScript</span>
-              <span class="project-tag">API</span>
-              <span class="project-tag">CSS Grid</span>
+            <div class="projects-grid">
+
+                <div class="project-card reveal">
+                    <div class="project-thumb pt1">
+                        <div class="thumb-grid"></div>
+                        <div class="project-num">01</div>
+                        <div class="thumb-icon">🛒</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="p-tag">Frontend design</span>
+                            <span class="p-tag">CSS</span>
+                            <span class="p-tag">Context API</span>
+                        </div>
+                        <div class="project-name">SHOPEASY — E-Commerce UI</div>
+                        <div class="project-desc">
+                            Fully responsive e-commerce frontend with product listing, cart management and a smooth
+                            checkout flow built in Frontend design.
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="p-link">🔗 LIVE DEMO</a>
+                            <a href="#" class="p-link ghost">⌥ GITHUB</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal reveal-d1">
+                    <div class="project-thumb pt2">
+                        <div class="thumb-grid"></div>
+                        <div class="project-num">02</div>
+                        <div class="thumb-icon">☀️</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="p-tag">JavaScript</span>
+                            <span class="p-tag">QA Testing</span>
+                            <span class="p-tag">CSS Grid</span>
+                        </div>
+                        <div class="project-name">WEATHERNOW — Weather App</div>
+                        <div class="project-desc">
+                            Real-time weather app using EHR application rel with geolocation support, 5-day forecast and
+                            animated weather icons.
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="p-link">🔗 LIVE DEMO</a>
+                            <a href="#" class="p-link ghost">⌥ GITHUB</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal reveal-d2">
+                    <div class="project-thumb pt3">
+                        <div class="thumb-grid"></div>
+                        <div class="project-num">03</div>
+                        <div class="thumb-icon">✅</div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span class="p-tag">HTML</span>
+                            <span class="p-tag">CSS</span>
+                            <span class="p-tag">Vanilla JS</span>
+                        </div>
+                        <div class="project-name">TASKFLOW — Task Manager</div>
+                        <div class="project-desc">
+                            Feature-rich to-do manager with drag &amp; drop, local storage, priority labels and smooth
+                            CSS transitions.
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="p-link">🔗 LIVE DEMO</a>
+                            <a href="#" class="p-link ghost">⌥ GITHUB</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="project-name">WeatherNow — Weather App</div>
-            <div class="project-desc">A real-time weather application fetching data from OpenWeather API with geolocation, 5-day forecast and animated weather icons.</div>
-            <div class="project-links">
-              <a href="#" class="proj-link">🔗 Live Demo</a>
-              <a href="#" class="proj-link ghost">⌥ GitHub</a>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+       EDUCATION & CERTIFICATIONS
+  ══════════════════════════════════════ -->
+    <section id="education" style="padding: 6rem 5%;">
+        <div class="timeline-inner">
+
+            <!-- Education -->
+            <div>
+                <div class="reveal">
+                    <p class="section-eyebrow">Background</p>
+                    <h2 class="section-title"><span class="neon-cyan">EDUCATION</span></h2>
+                </div>
+                <div class="timeline">
+                    <div class="tl-item reveal">
+                        <div class="tl-dot"></div>
+                        <div class="tl-year">2020 — 2024</div>
+                        <div class="tl-title">B.Tech in Information Technology</div>
+                        <div class="tl-place">Vel tech multi tech, Chennai</div>
+                        <div class="tl-desc">CGPA 6.8/10. Core: Data Structures, Web Dev, DBMS, OS, Algorithms.</div>
+                    </div>
+                    <div class="tl-item reveal reveal-d1">
+                        <div class="tl-dot"></div>
+                        <div class="tl-year">2014 — 2015</div>
+                        <div class="tl-title">Higher Secondary (12th Grade)</div>
+                        <div class="tl-place">Srm school, City</div>
+                        <div class="tl-desc">Science + Computer Science stream. 81% score. Built first static site as
+                            school project.</div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="project-card reveal reveal-d2">
-          <div class="project-preview preview-3">
-            <div class="preview-pattern"></div>
-            <div class="preview-icon">✅</div>
-          </div>
-          <div class="project-body">
-            <div class="project-tags">
-              <span class="project-tag">HTML</span>
-              <span class="project-tag">CSS</span>
-              <span class="project-tag">Vanilla JS</span>
+            <!-- Certifications -->
+            <div>
+                <div class="reveal">
+                    <p class="section-eyebrow">Achievements</p>
+                    <h2 class="section-title"><span class="neon-pink">CERTS</span></h2>
+                </div>
+                <div class="timeline">
+                    <div class="tl-item reveal">
+                        <div class="tl-dot"></div>
+                        <div class="tl-year">2024</div>
+                        <div class="tl-title">Meta Frontend Designer</div>
+                        <div class="tl-place">Coursera Meta</div>
+                        <div class="tl-desc">9-course specialization — Frontend design, version control, UI/UX
+                            principles, advanced JS.</div>
+                    </div>
+                    <div class="tl-item reveal reveal-d1">
+                        <div class="tl-dot"></div>
+                        <div class="tl-year">2023</div>
+                        <div class="tl-title">JavaScript Algorithms &amp; DS</div>
+                        <div class="tl-place">freeCodeCamp</div>
+                        <div class="tl-desc">300+ hrs. ES6, functional programming, algorithms and data structures
+                            mastery.</div>
+                    </div>
+                    <div class="tl-item reveal reveal-d2">
+                        <div class="tl-dot"></div>
+                        <div class="tl-year">2023</div>
+                        <div class="tl-title">Responsive Web Design</div>
+                        <div class="tl-place">freeCodeCamp</div>
+                        <div class="tl-desc">5 certification projects. Advanced CSS, Flexbox, Grid, accessibility
+                            standards.</div>
+                    </div>
+                </div>
             </div>
-            <div class="project-name">TaskFlow — To-Do Manager</div>
-            <div class="project-desc">A feature-rich task manager with drag &amp; drop, local storage persistence, priority labels, and smooth CSS animations.</div>
-            <div class="project-links">
-              <a href="#" class="proj-link">🔗 Live Demo</a>
-              <a href="#" class="proj-link ghost">⌥ GitHub</a>
+
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+       CONTACT
+  ══════════════════════════════════════ -->
+    <section class="contact" id="contact">
+        <div class="contact-inner">
+
+            <!-- Left: Info + Socials -->
+            <div class="reveal">
+                <p class="section-eyebrow">Get In Touch</p>
+                <h2 class="section-title">
+                    <span class="neon-pink">OPEN</span>
+                    <span class="neon-cyan">CHANNEL</span>
+                </h2>
+                <p class="section-sub" style="margin-bottom: 1rem;">
+                    Actively seeking my first developer role. Got an opportunity, a project, or just want to connect? My
+                    inbox is open.
+                </p>
+                <div class="social-links">
+                    <a href="mailto:johndoe@email.com" class="social-link">
+                        <span class="s-icon">📧</span>
+                        <div>
+                            <div class="s-name">EMAIL</div>
+                            <div class="s-handle">selvabharath01@gmail.com</div>
+                        </div>
+                        <span class="s-arrow">→</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <span class="s-icon">💼</span>
+                        <div>
+                            <div class="s-name">LINKEDIN</div>
+                            <div class="s-handle">selvabharath.com/in/johndoe</div>
+                        </div>
+                        <span class="s-arrow">→</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <span class="s-icon">🐙</span>
+                        <div>
+                            <div class="s-name">GITHUB</div>
+                            <!-- <a href="https://github.com/MSelvaB07/MS_Portfolio" class="s-handle" target="_blank"
+                                rel="noopener noreferrer">
+                                MS_Portfolio
+                            </a> -->
+                        </div>
+                        <span class="s-arrow">→</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <span class="s-icon">🐦</span>
+                        <div>
+                            <div class="s-name">TWITTER / X</div>
+                            <div class="s-handle">@Selva_dev</div>
+                        </div>
+                        <span class="s-arrow">→</span>
+                    </a>
+                </div>
             </div>
-          </div>
+
+            <!-- Right: Form -->
+            <div class="reveal reveal-d1">
+                <div class="contact-form-wrap">
+                    <p class="form-title">SEND TRANSMISSION</p>
+
+                    <div class="form-group">
+                        <label class="form-label">Your Name</label>
+                        <input type="text" class="form-input" placeholder="Jane Smith" />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Email Address</label>
+                        <input type="email" class="form-input" placeholder="jane@company.com" />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Subject</label>
+                        <input type="text" class="form-input" placeholder="Job Opportunity / Project" />
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-input" placeholder="Hi John, I'd like to discuss..."></textarea>
+                    </div>
+
+                    <button class="btn-pink btn-block" onclick="handleFormSubmit(this)">
+                        [ SEND MESSAGE ]
+                    </button>
+                </div>
+            </div>
+
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ─── EDUCATION & CERTIFICATIONS ──── -->
-  <section id="education" style="padding:6rem 5%;">
-    <div class="timeline-inner">
-
-      <div>
-        <div class="reveal">
-          <p class="section-label">Background</p>
-          <h2 class="section-title">Education</h2>
-        </div>
-        <div class="timeline">
-          <div class="timeline-item reveal">
-            <div class="timeline-dot"></div>
-            <div class="timeline-year">2020 – 2024</div>
-            <div class="timeline-title">B.Tech in Computer Science</div>
-            <div class="timeline-place">XYZ University, City</div>
-            <div class="timeline-desc">Graduated with CGPA 8.4/10. Core subjects: Data Structures, Web Development, DBMS, Operating Systems.</div>
-          </div>
-          <div class="timeline-item reveal reveal-d1">
-            <div class="timeline-dot"></div>
-            <div class="timeline-year">2019 – 2020</div>
-            <div class="timeline-title">Higher Secondary (12th)</div>
-            <div class="timeline-place">ABC School, City</div>
-            <div class="timeline-desc">Science stream with Computer Science. Scored 92%. Developed first static website as a school project.</div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div class="reveal">
-          <p class="section-label">Achievements</p>
-          <h2 class="section-title">Certifications</h2>
-        </div>
-        <div class="timeline">
-          <div class="timeline-item reveal">
-            <div class="timeline-dot"></div>
-            <div class="timeline-year">2024</div>
-            <div class="timeline-title">Meta Frontend Developer</div>
-            <div class="timeline-place">Coursera / Meta</div>
-            <div class="timeline-desc">Completed 9-course specialization covering React, version control, UI/UX principles and advanced JavaScript.</div>
-          </div>
-          <div class="timeline-item reveal reveal-d1">
-            <div class="timeline-dot"></div>
-            <div class="timeline-year">2023</div>
-            <div class="timeline-title">JavaScript Algorithms &amp; DS</div>
-            <div class="timeline-place">freeCodeCamp</div>
-            <div class="timeline-desc">300+ hours of curriculum. Mastered ES6, functional programming, algorithms and data structures.</div>
-          </div>
-          <div class="timeline-item reveal reveal-d2">
-            <div class="timeline-dot"></div>
-            <div class="timeline-year">2023</div>
-            <div class="timeline-title">Responsive Web Design</div>
-            <div class="timeline-place">freeCodeCamp</div>
-            <div class="timeline-desc">Built 5 certification projects. Advanced CSS techniques, Flexbox, Grid and accessibility standards.</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ─── CONTACT ──────────────────────── -->
-  <section class="contact" id="contact">
-    <div class="contact-inner">
-
-      <div class="reveal">
-        <p class="section-label">Let's Talk</p>
-        <h2 class="section-title">Get In Touch</h2>
-        <p class="section-sub" style="margin-bottom:2.5rem;">
-          I'm actively looking for my first developer role. Whether you have a job
-          opportunity, a project, or just want to say hi — my inbox is open!
+    <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+    <footer>
+        <p class="footer-text">
+            DESIGNED &amp; BUILT BY
+            <span class="p"> JOHN_DOE</span>
+            <span class="c"> </span>
+            © 2026
+            <span class="c">ALL SYSTEMS NOMINAL</span>
         </p>
-        <div class="social-links">
-          <a href="mailto:johndoe@email.com" class="social-link">
-            <span class="social-icon">📧</span>
-            <div>
-              <div class="social-info-name">Email</div>
-              <div class="social-info-handle">johndoe@email.com</div>
-            </div>
-            <span class="social-arrow">→</span>
-          </a>
-          <a href="#" class="social-link">
-            <span class="social-icon">💼</span>
-            <div>
-              <div class="social-info-name">LinkedIn</div>
-              <div class="social-info-handle">linkedin.com/in/johndoe</div>
-            </div>
-            <span class="social-arrow">→</span>
-          </a>
-          <a href="#" class="social-link">
-            <span class="social-icon">🐙</span>
-            <div>
-              <div class="social-info-name">GitHub</div>
-              <div class="social-info-handle">github.com/johndoe</div>
-            </div>
-            <span class="social-arrow">→</span>
-          </a>
-          <a href="#" class="social-link">
-            <span class="social-icon">🐦</span>
-            <div>
-              <div class="social-info-name">Twitter / X</div>
-              <div class="social-info-handle">@johndoe_dev</div>
-            </div>
-            <span class="social-arrow">→</span>
-          </a>
-        </div>
-      </div>
+    </footer>
 
-      <div class="reveal reveal-d1">
-        <div class="contact-form-wrap">
-          <h3 class="contact-form-title">Send me a message</h3>
-          <div class="form-group">
-            <label class="form-label">Your Name</label>
-            <input type="text" class="form-input" placeholder="Jane Smith" />
-          </div>
-          <div class="form-group">
-            <label class="form-label">Email Address</label>
-            <input type="email" class="form-input" placeholder="jane@company.com" />
-          </div>
-          <div class="form-group">
-            <label class="form-label">Subject</label>
-            <input type="text" class="form-input" placeholder="Job Opportunity / Project" />
-          </div>
-          <div class="form-group">
-            <label class="form-label">Message</label>
-            <textarea class="form-input" placeholder="Hi John, I'd like to discuss..."></textarea>
-          </div>
-          <button class="btn-filled btn-block" onclick="handleFormSubmit(this)">
-            Send Message ✉️
-          </button>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ─── FOOTER ───────────────────────── -->
-  <footer>
-    <p>Designed &amp; built with ❤️ by <span>John Doe</span> · © 2026</p>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
